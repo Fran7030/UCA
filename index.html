@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Practica</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Practica</a>        
+        <span class="site-name">Franklin</span>
+        <div id="toggle" onclick="toggle()"></div>
+    </header>
+<div class="cover" id="foo"></div>
+
+<div class="loader-animation">
+   <section class="sec">
+    <video src="video/smoke.mp4" autoplay muted></video>
+    <h1>
+        <span>I</span>
+        <span>N</span>
+        <span>T</span>
+        <span>E</span>
+        <span>R</span>
+        <span>F</span>
+        <span>A</span>
+        <span>C</span>
+        <span>E</span>
+        <span>S</span>
+    </h1>
+</section> 
+</div>
+
+<div class="content">
+    <h2>Franklin, practica</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut animi corrupti harum perferendis totam nam iste, officia quis praesentium ullam nesciunt. Sit, tempore delectus. Ducimus consequuntur blanditiis ad veniam earum?</p>
+    <a href="#">Contacto</a>
+</div>
+<ul class="redes">
+    <li><a href="#"><img src="img/facebook.png" alt="icono red social"></a></li>
+    <li><a href="#"><img src="img/twitter.png" alt="icono red social"></a></li>
+    <li><a href="#"><img src="img/linkedin.png" alt="icono red social"></a></li>
+    <li><a href="index.html"><img src="images/image9.png" alt="icono red social"></a></li>
+</ul>
+<nav id="navigation">
+    <div id="toggle" onclick="toggle()"></div>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de mí</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Portafolio</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
+<script type="text/javascript">
+    function toggle(){
+        var seccion = document.getElementById("sec")
+        var nav = document.getElementById("navigation")
+        seccion.classList.toggle('active')
+        nav.classList.toggle('active')
+    }
+</script>
+<footer class="footer">
+    <p class="footer__texto">Practica <span>Junio 16</span> </p>
+</footer>
+</body>
+</html>
+
+
+
